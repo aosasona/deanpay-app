@@ -1,0 +1,29 @@
+{
+  "name": "deanpay",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tailwind": "npx tailwindcss -i ./styles/main.css -o ./styles/globals.css --watch"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "flutterwave-node-v3": "^1.0.9",
+    "mongoose": "^6.2.4",
+    "next": "12.1.0",
+    "nprogress": "^0.2.0",
+    "numeral": "^2.0.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "typescript": "^4.6.2"
+  },
+  "devDependencies": {
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0",
+    "tailwindcss": "^3.0.23"
+  }
+}
